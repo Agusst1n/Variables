@@ -12,7 +12,7 @@ var segundoNumero = window.prompt("Introduzca el segundo valor OwO *c enoja*");
 var resultado = parseInt(primerNumero) + parseInt(segundoNumero)
 alert("Hola querido usuario tu resultado es onichan : "+ resultado)
 
-alert("ahora hacela facil y decime en que año naciste *pone el fierro sobre la mesa 🔫*")
+alert("ahora hacela facil y decime en que año naciste o sos boleta *pone el fierro sobre la mesa 🔫*")
 alert("Te la creiste wey xd")
 
 var añoActual = 2021; 
