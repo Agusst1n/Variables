@@ -1,59 +1,43 @@
-/*
-// Variables
+/*var primerNombre=window.prompt("¿Cual es tu primer nombre?");
+console.log("Primer nombre:"+ primerNombre);
+var apellido=window.prompt("¿Cual es tu apellido?");
+console.log("Apellido:"+ apellido);
+var nombreCompleto=primerNombre+" "+ apellido;
+alert("Tu nombre completo es:"+" "+ nombreCompleto);
 
-//La vieja forma = scope global (se pueden usar en cualquier parte del programa)
-// var numerosEnteros;
 
-//Las nuevas formas de declarar variables (ES6)
-//let miSegundaVariable;   // = scope local (solo puede ser llamada dentro de la funcion donde fue creada) , fuera de esa funcion no existe 
+var primerNumero=window.prompt("¿Ingrese un numero por favor");
+var segundoNumero=window.prompt("¿Ingrese otro numero por favor?");
+var suma=parseInt(primerNumero) + parseInt( segundoNumero);
+alert("El resultado de la suma es:"+" "+ suma);
 
-//const otraFormaDeVariable; // scope mixto (global y local segun donde se declare)
+var balance= 2300;
+alert("Su balance es de: $" + balance);
+var retirar=window.prompt("¿Cuanta plata desea retirar?");
+var cuenta= parseInt(balance) - parseInt(retirar);
+var suCuenta= alert("la plata que le queda en la cuenta es: $" + cuenta);
 
-// Suma
-var primerNumero = 15000;
-var segundoNumero = 545646;
-var resultado = primerNumero * segundoNumero;
-console.log("Tu resultado es: " + resultado);
+var primerNota=window.prompt("¿Que te sacaste en el primer examen?");
+var segundarNota=window.prompt("¿Que te sacaste en el segundo examen?");
+var tercerNota=window.prompt("¿Que te sacaste en el tercer examen?");
+var promedio= (parseInt(primerNota) + parseInt(segundarNota) + parseInt(tercerNota)) /3;
+var suPromedio= alert("Tinen promedio de:"+" "+ promedio);
 
-// Nombre
-var primerNombre = "Ezequiel";
-var segundoNombre = "Agustín";
-var nombreCompleto = primerNombre + " " + segundoNombre;
-console.log(nombreCompleto);
+var numeroMetros=window.prompt("Ingresa una distancia en metros");
+var pies= parseInt(numeroMetros)*(3.28084);
+var centimetros= parseInt(numeroMetros)*(100);
+var pulgadas=parseInt(numeroMetros)*(39.3701);
+var cartel=alert((numeroMetros +" "+ "metros")+", "+("son"+" "+ pies +" "+"pies")+ ", "+ (centimetros+" "+ "centimetros")+", "+("y"+" "+ pulgadas+" "+ "pulgadas"));
 
-// Tipos de datos
-/*
-Numericos: INT (enteros) = 1 o FLOAT (flotantes) = 1.5,
-Texto: Strings (Alfanumericas) = "Esto es un texto", "152546",
-*/
 
-// Operadores Aritmeticos
-/*
-+ = suma
-- = resta
-/ = division
-* = multiplicación
-/// Operadores extendidos
-% = resto
-%% = modulo
- aca cierro comentario/  
+var PrimerNumero=window.prompt("¿Ingrese un numero por favor");
+var SegundoNumero=window.prompt("¿Ingrese un segundo numero por favor?");
+var calculo=parseInt(PrimerNumero) + parseInt( SegundoNumero);
+alert("El resultado de la suma es:"+" "+ calculo);
+var TercerNumero=window.prompt("¿Ingrese un tercer numero por favor?");
+var calculo2=parseInt(TercerNumero)*calculo;
+alert("El resultado de la cuenta es:"+" "+ calculo2);
 
-// Funcion Math
-var numeroExperimental = 10;
-console.log(Math.pow(numeroExperimental, 3));
-console.log(Math.round(1.77777777777));
-console.log(Math.round(Math.random()*1000));
-
-// Numeros aleatorios limitados
-function numeroAleatorioVectorizado(min, max){
-    console.log(Math.round((Math.random() * (max - min) + min)))
-}
-
-numeroAleatorioVectorizado(10, 100);
-*/
-
-function tercerBoton(){ //Creo la funcion 3er boton
-    window.prompt('Como es tu nombre?');
-    let nombre = (tercerBoton)
-    window.confirm(nombre);
-}
+var minutos=window.prompt("¿Ingrese una cantidad de minutos");
+var pasajeSegundos=parseInt(minutos)*(60);
+alert(minutos +" " +"minutos"+ " "+ "son" +" "+ pasajeSegundos+" "+"segundos");*/
